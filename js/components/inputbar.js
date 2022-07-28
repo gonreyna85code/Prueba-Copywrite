@@ -1,5 +1,5 @@
 import React from "react";
-import Results from './results';
+import Results from './results.js';
 import axios from 'axios';
 
 

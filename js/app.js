@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Bar from './components/inputBar';
+import Bar from './components/inputBar.js';
 import 'bootstrap';
 import '../scss/styles.scss';
 
