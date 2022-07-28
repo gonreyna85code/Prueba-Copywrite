@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "babel-node": "babel-node --presets=@babel/preset-env",
-    "start": "nodemon --exec npm run babel-node index.js --ignore /brain/model.js",
+    "start": "node --exec npm run babel-node index.js",
     "build": "webpack --mode production --config webpack.config.js",
     "build:prod": "webpack --mode production --config webpack.config.js",
     "test": "mocha *.test.js"
