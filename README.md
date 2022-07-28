@@ -1,6 +1,9 @@
-API base para Backend Express.
+Prueba CopyWrite
 
-* Las Rutas se autoimportan, solo crear el archivo .js en la carpeta routes.
+Respuestas del API dadas por AI (brain js)
+con un modelo preentrenado (se puede entrenar el modelo nuevamente solo borrando el archivo model.json)
 
 npm install
+npm run build
 npm start
+npm test // para testear el API
